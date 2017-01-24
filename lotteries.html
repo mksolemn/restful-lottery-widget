@@ -1,0 +1,507 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Shrikhand");
+        @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+        a {
+            text-decoration: none
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        ul,
+        p {
+            padding: 0px;
+            margin: 0px
+        }
+        
+        body {
+            font-size: 1em
+        }
+        
+        img {
+            max-width: 100%
+        }
+        
+        .dum-lotto {
+            font-size: 1em;
+            max-width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            overflow: hidden
+        }
+        
+        .dum-item {
+            padding: 8px;
+            box-sizing: border-box;
+            text-align: center;
+            list-style-type: none;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            -ms-flex-pack: distribute;
+            justify-content: space-around
+        }
+        
+        .dum-item li {
+            display: block
+        }
+        
+        .dum-item:last-child {
+            display: none
+        }
+        
+        .dum-inner {
+            width: 100%
+        }
+        
+        .default .dum-inner {
+            border-radius: 8px;
+            box-shadow: 0px 1px 5px 0px rgba(24, 42, 243, 0.5);
+            padding: 10px 0
+        }
+        
+        .default .dum-inner div {
+            padding: 10px 15px
+        }
+        
+        .default .dum-pot {
+            font-size: 2em;
+            font-family: Shrikhand;
+            background: #e67e22;
+            color: #fff
+        }
+        
+        .default .button a {
+            padding: 10px 30px;
+            border-radius: 5px;
+            display: block;
+            background: #e67e22;
+            box-shadow: inset 0px 0px 7px -2px #924d10;
+            color: #fff;
+            border-bottom: solid 3px #a85913;
+            display: inline-block
+        }
+        
+        .king {
+            font-family: 'Open Sans', sans-serif;
+            padding: 8px;
+            margin-top: 60px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex
+        }
+        
+        .king:nth-child(even)>.dum-inner {
+            border: solid 2px #93ccff;
+            box-shadow: inset 0px -115px 80px 17px rgba(147, 204, 255, 0.4)
+        }
+        
+        .king:nth-child(even):hover .dum-inner {
+            box-shadow: inset 0px 150px 80px 17px rgba(147, 204, 255, 0.75)
+        }
+        
+        .king:nth-child(even) .dum-pot {
+            background: rgba(147, 204, 255, 0.9)
+        }
+        
+        .king:nth-child(odd)>.dum-inner {
+            border: solid 2px #81e296;
+            box-shadow: inset 0px -115px 80px 17px rgba(129, 226, 150, 0.4)
+        }
+        
+        .king:nth-child(odd):hover .dum-inner {
+            box-shadow: inset 0px 150px 80px 17px rgba(129, 226, 150, 0.75)
+        }
+        
+        .king:nth-child(odd) .dum-pot {
+            background: rgba(129, 226, 150, 0.75)
+        }
+        
+        .king .button {
+            padding: 20px 0px;
+            height: 40px
+        }
+        
+        .king .button a {
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+            background: #f17f48;
+            padding: 8px 16px;
+            border-radius: 4px;
+            border-bottom: solid 2px #ed5e19;
+            display: inline-block;
+            -webkit-transition: all ease-in-out .2s;
+            transition: all ease-in-out .2s
+        }
+        
+        .king .button a:hover {
+            margin-top: 2px;
+            border-bottom: solid 2px transparent
+        }
+        
+        .king .dum-inner {
+            border-radius: 4px;
+            -webkit-transition: all ease-in-out .3s;
+            transition: all ease-in-out .3s
+        }
+        
+        .king .dum-inner>div {
+            padding: 5px
+        }
+        
+        .king .dum-inner .dum-logo {
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0px 45px;
+            box-sizing: border-box;
+            margin-top: -60px
+        }
+        
+        .king .dum-inner .dum-logo img {
+            width: 100%
+        }
+        
+        .king .dum-inner .dum-pot {
+            font-size: 28px;
+            font-weight: 600;
+            color: #151775
+        }
+        
+        .king .dum-inner .dum-name>* {
+            font-weight: 400;
+            font-size: 18px;
+            color: #314951;
+            display: inline-block;
+            padding: 5px
+        }
+        
+        .king .dum-inner .dum-date>* {
+            line-height: 30px;
+            font-size: 13px;
+            color: #617b82;
+            font-weight: bold
+        }
+        
+        .king .dum-inner .dum-date .decor {
+            width: 30px;
+            height: auto;
+            vertical-align: middle
+        }
+        
+        .king .dum-inner .dum-date span {
+            vertical-align: middle
+        }
+        
+        @-webkit-keyframes hvr-buzz {
+            50% {
+                -webkit-transform: translateX(3px) rotate(2deg);
+                transform: translateX(3px) rotate(2deg)
+            }
+            100% {
+                -webkit-transform: translateX(-3px) rotate(-2deg);
+                transform: translateX(-3px) rotate(-2deg)
+            }
+        }
+        
+        @keyframes hvr-buzz {
+            50% {
+                -webkit-transform: translateX(3px) rotate(2deg);
+                transform: translateX(3px) rotate(2deg)
+            }
+            100% {
+                -webkit-transform: translateX(-3px) rotate(-2deg);
+                transform: translateX(-3px) rotate(-2deg)
+            }
+        }
+        
+        .hvr-buzz {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px transparent
+        }
+        
+        .king:hover .hvr-buzz,
+        .king:focus .hvr-buzz,
+        .king:active .hvr-buzz {
+            -webkit-animation-name: hvr-buzz;
+            animation-name: hvr-buzz;
+            -webkit-animation-duration: 0.2s;
+            animation-duration: 0.2s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <script id="lotto-template3" type="text/x-handlebars-template">
+        {{#each data.lotteries}}
+        <div class="dum-item king">
+            <div class="dum-inner">
+                <div class="dum-logo"><img class="hvr-buzz" src="{{#switchLogo}}{{logo-lg}}{{/switchLogo}}" alt="{{logo-lg}}" /></div>
+                <div class="dum-name">
+                    <h3>{{name}}</h3>
+                </div>
+                <div class="dum-pot">€ {{#numToText}}{{pot_size}}{{/numToText}}</div>
+                <div class="dum-date">
+                    <img class="decor" src="http://svgur.com/i/J3.svg" /> <span>{{#formatTime}}{{date}}{{/formatTime}}</span>
+                </div>
+                <div class="button"><a href="link">Play</a></div>
+            </div>
+        </div>
+        {{/each}}
+    </script>
+
+
+    <div class="dum-lotto"></div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script>
+        (function($) {
+
+            $(document).ready(function() {
+
+                $.fn.dumLottoModule = function(options) {
+
+                    // get base url
+                    var getUrl = window.location;
+                    var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+                    var filteredData = [];
+                    var handlebarsPlaceholder = $(this); // set handlebars template
+                    var retrievedData = new Object();
+                    var _this = this;
+
+                    var settings = $.extend({
+
+                        lotteryFilter: [], // lottery ids
+                        handlebarsTemplate: '', // handlebars template
+                        singleElement: '.dum-item', // single lottery selector
+                        dataUrl: '', // lotto data object
+                        columns: 6, // lotto columns
+                        showLogo: true, // boolean
+                        showName: true, // boolean
+                        showDate: true, // boolean
+                        showPot: true, // boolean
+                        showSeconds: true, // boolean
+                        logoType: '', // select logo type: default, "long", "square"
+                        slotMachine: false //boolean
+
+                    }, options);
+
+                    // handlebars settings
+                    var theTemplateScript = $(settings.handlebarsTemplate).html();
+                    var theTemplate = Handlebars.compile(theTemplateScript);
+
+                    // get json data
+                    var getData = function(dataUrl) {
+                        $.getJSON({
+                                url: dataUrl
+                            })
+                            .done(function(data) {
+                                retrievedData = data;
+                                dataToDom(data);
+                            })
+                            .fail(function() {
+                                $('.dum-lotto').append('<p>Unable to load lotteries.</p>');
+                            })
+                    };
+
+                    // push data to DOM
+                    var dataToDom = function(data) {
+
+                        var theCompiledHtml = theTemplate(filterData(data)); // use data filter, before pushing to DOM
+                        handlebarsPlaceholder.html(theCompiledHtml);
+
+                    }
+
+                    // filter data based on filter array
+                    var filterData = function(gotData) {
+
+                        var dataShort = gotData.data.lotteries; // should be replaced with more universal data path
+                        var updatedFilter; // array to store filter after filter value is removed
+                        var arrayLength = dataShort.length; // fetch length of array only once
+
+                        // sort filter biggest to smallest to not fuck up the indexing
+                        // if you remove lower numbers first the index will shift andd will be incorect for the rest of the array
+                        var sortedFilter = settings.lotteryFilter.sort(function(a, b) {
+                            return b - a
+                        });
+
+                        // filter out array with values from another array
+                        for (var i = arrayLength - 1; arrayLength != arrayLength - sortedFilter.length; i -= 1) {
+                            // loop through filter array values
+                            for (var x = 0; settings.lotteryFilter.length > x; x += 1) {
+                                if (dataShort[i].id == sortedFilter[x]) {
+                                    filteredData = dataShort.splice(i, 1); // create new array from without filtered values
+                                    updatedFilter = sortedFilter.splice(x, 1); // remove filtered value
+                                }
+                            }
+                            arrayLength -= 1; // update array length
+                        }
+
+                        return gotData;
+
+                    };
+
+                    // var select logo type
+                    Handlebars.registerHelper('switchLogo', function(setOptions) {
+                        var type = this.logo_lg;
+                        console.log(type);
+
+                        switch (settings.logoType) {
+                            case 'long':
+                                type = this.logo_lg;
+                                break;
+                            case 'square':
+                                type = this.logo_sq;
+                                break;
+                            default:
+                                type = this.logo;
+                        }
+
+                        var path = '';
+
+                        return path + type;
+                    });
+
+                    //handlebars helpers
+
+                    Handlebars.registerHelper('numToText', function(options) {
+                        var unconverted = new Handlebars.SafeString(options.fn(this));
+
+                        var converted = function() {
+                            var numToWord;
+
+                            if (unconverted.string >= 1000000000) {
+                                numToWord = Math.round(unconverted.string / 1000000000) + ' Billion';
+                            } else if (1000000 < unconverted.string.length < 1000000000) {
+                                numToWord = Math.round(unconverted.string / 1000000) + ' Million';
+                            }
+
+                            return numToWord;
+                        }
+
+                        return converted();
+                    });
+
+                    Handlebars.registerHelper('formatTime', function(options) {
+                        var unformatted = new Handlebars.SafeString(options.fn(this));
+
+                        var d = new Date();
+                        var timeLeft;
+                        var randomTime = 2160000 + Math.floor(Math.random() * 604800000);
+                        var seconds = Math.round((randomTime / 1000) % 60);
+                        var minutes = Math.round((randomTime / (1000 * 60)) % 60);
+                        var hours = Math.round((randomTime / (1000 * 60 * 60)) % 24);
+                        var days = Math.round((randomTime / (1000 * 60 * 60 * 24)));
+
+                        var format = function() {
+
+                            // add trailing zero
+                            if (minutes < 10) {
+                                minutes = '0' + minutes;
+                            }
+                            if (seconds < 10) {
+                                seconds = '0' + seconds
+                            }
+
+                            // days
+                            if (days == 1) {
+                                days = days + ' day'
+                            } else if (days == 0) {
+                                days = ''
+                            } else {
+                                days = days + ' days'
+                            }
+
+                            // show seconds
+                            if (settings.showSeconds) {
+                                return days + ' ' + hours + ':' + minutes + ':' + seconds;
+                            } else {
+                                return days + ' ' + hours + ':' + minutes;
+                            }
+                        }
+
+                        return format();
+                    })
+
+                    // add columns based on input
+
+                    var columnize = function(cols, element) {
+                        console.log('columnize RUNS');
+                        var colWidth = (100 / cols).toFixed(2) + '%';
+                        $(element).each(function() {
+                            $(this).css({
+                                'flex-basis': colWidth
+                            });
+                        })
+                    }
+
+                    // slot machine module
+                    var slotMachineInit = function() {;
+
+                        $(_this).css('height', $(settings.singleElement).outerHeight());
+                    }
+
+                    // function runtime
+                    getData(settings.dataUrl);
+                    slotMachineInit();
+
+                    // after ajax
+                    $(document).ajaxComplete(function() {
+                        console.log('ajax completed');
+                        columnize(settings.columns, settings.singleElement);
+                    });
+
+
+                    return this;
+
+                }
+
+                $('.dum-lotto').dumLottoModule({
+
+                    lotteryFilter: [2, 5, 7, 8, 21, 22, 23, 26],
+                    dataUrl: 'https://jsonblob.com/api/jsonBlob/f602cb33-b63c-11e6-871b-315e230c0a7c',
+                    handlebarsTemplate: '#lotto-template3',
+                    columns: 3, // items per row
+                    showSeconds: false, // boolean
+                    logoType: '', // "long", "square", empty
+                    slotMachine: true // boolean
+
+                });
+
+
+
+            });
+
+        })(jQuery);
+    </script>
+
+</body>

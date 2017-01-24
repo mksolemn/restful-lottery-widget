@@ -1,0 +1,328 @@
+{
+    "data": {
+        "lotteries": [{
+                "id": "1",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-euromillions_2_zpsug1d7ltb.png",
+                "logo_lg": "logo-long-10freeeuromillions.png",
+                "logo_sq": "logo-square-euromillions.png",
+                "name": "Free Euromillions",
+                "date": "1483225200000",
+                "pot_size": "29000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "2",
+                "logo_lg": "logo-long-alldrawlottobundle.png",
+                "logo_sq": "",
+                "name": "All Draw Lotto",
+                "date": "1483225200000",
+                "pot_size": "16000000",
+                "link": "#",
+                "type": "2"
+            },
+            {
+                "id": "3",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-bonoloto_zps92qdj1jv.png",
+                "logo_lg": "logo-long-bonoloto.png",
+                "logo_sq": "logo-square-bonoloto.png",
+                "name": "Bono Loto",
+                "date": "1483225200000",
+                "pot_size": "44000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "4",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-superlotto_zpslrrcbchd.png",
+                "logo_lg": "logo-long-californiasuperlotto.png",
+                "logo_sq": "",
+                "name": "California Superlotto",
+                "date": "1483225200000",
+                "pot_size": "2000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "5",
+                "logo": "logo-eurocombi.png",
+                "logo_lg": "logo-long-eurocombi155.png",
+                "logo_sq": "",
+                "name": "Eurocombi155",
+                "date": "1483225200000",
+                "pot_size": "88000000",
+                "link": "#",
+                "type": "2"
+            },
+            {
+                "id": "6",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-eurojackpot_zpsvnsernhg.png",
+                "logo_lg": "logo-long-eurojackpot.png",
+                "logo_sq": "logo-square-eurojackpot.png",
+                "name": "Euro Jackpot",
+                "date": "1483225200000",
+                "pot_size": "12000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "7",
+                "logo_lg": "logo-long-eurolottobundle.png",
+                "logo_sq": "",
+                "name": "Eurolotto bundle",
+                "date": "1483225200000",
+                "pot_size": "875000000",
+                "link": "#",
+                "type": "2"
+            },
+            {
+                "id": "8",
+                "logo_lg": "logo-long-eurolottosyndicate150.png",
+                "logo_sq": "",
+                "name": "Eurolotto",
+                "date": "1483225200000",
+                "pot_size": "29000000",
+                "link": "#",
+                "type": "3"
+            },
+            {
+                "id": "9",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-euromillions_2_zpsug1d7ltb.png",
+                "logo_lg": "logo-long-euromillions.png",
+                "logo_sq": "logo-square-euromillions.png",
+                "name": "Euro Millions",
+                "date": "1483225200000",
+                "pot_size": "150000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "10",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-euromillions_zpsho8xs1ji.png",
+                "logo_lg": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-euromillions_zpsho8xs1ji.png",
+                "logo_sq": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-euromillions_zpsho8xs1ji.png",
+                "name": "Euromillions",
+                "date": "1483225200000",
+                "pot_size": "777777777",
+                "link": "#",
+                "type": "3"
+            },
+            {
+                "id": "11",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-lotto6aus49germany_zpspfzr0njp.png",
+                "logo_lg": "logo-long-germanlotto.png",
+                "logo_sq": "logo-square-germanlotto.png",
+                "name": "German Lotto",
+                "date": "1483225200000",
+                "pot_size": "250000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "12",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-irishlotto_zpskdwysibe.png",
+                "logo_lg": "logo-long-irishlotto.png",
+                "logo_sq": "logo-square-irishlotto.png",
+                "name": "Irish Lotto",
+                "date": "1483225200000",
+                "pot_size": "90000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "13",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-keno_zpsmwedwjrd.png",
+                "logo_lg": "logo-long-keno.png",
+                "logo_sq": "logo-square-keno.png",
+                "name": "Keno",
+                "date": "1483225200000",
+                "pot_size": "66000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "14",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-lotto649_zpsvxfg5mnt.png",
+                "logo_lg": "logo-long-lotto649.png",
+                "logo_sq": "logo-square-lotto649.png",
+                "name": "Lotto 649",
+                "date": "1483225200000",
+                "pot_size": "3000000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "15",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-megamillions_zpsyvpjydm8.png",
+                "logo_lg": "logo-long-megamillions.png",
+                "logo_sq": "logo-square-megamillions.png",
+                "name": "Megamillions",
+                "date": "1483225200000",
+                "pot_size": "600000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "16",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-megasena_zpsmxvwbidq.png",
+                "logo_lg": "logo-long-mega-sena.png",
+                "logo_sq": "logo-square-mega-sena.png",
+                "name": "Mega Sena",
+                "date": "1483225200000",
+                "pot_size": "1700000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "17",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-ozlotto_zpsz7aedevj.png",
+                "logo_lg": "logo-long-ozlotto.png",
+                "logo_sq": "logo-square-ozlotto.png",
+                "name": "Oz Lotto",
+                "date": "1483225200000",
+                "pot_size": "999000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "18",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-powerball_zpsn5axw2jx.png",
+                "logo_lg": "logo-long-powerball.png",
+                "logo_sq": "logo-square-powerball.png",
+                "name": "Powerball",
+                "date": "1483225200000",
+                "pot_size": "55555555",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "19",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-powerballaustralia_zpsdkh4qidy.png",
+                "logo_lg": "logo-long-powerballaustralia.png",
+                "logo_sq": "",
+                "name": "Powerball Australia",
+                "date": "1483225200000",
+                "pot_size": "687000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "20",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-superenolotto_zpsdawho6in.png",
+                "logo_lg": "logo-long-superenalotto.png",
+                "logo_sq": "logo-square-superenalotto.png",
+                "name": "Super Enalotto",
+                "date": "1483225200000",
+                "pot_size": "98000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "21",
+                "logo_lg": "logo-long-top4lottobundle.png",
+                "logo_sq": "",
+                "name": "Top4Lotto",
+                "date": "1483225200000",
+                "pot_size": "14000000",
+                "link": "#",
+                "type": "2"
+            },
+            {
+                "id": "22",
+                "logo_lg": "logo-long-uscombi82.png",
+                "logo_sq": "",
+                "name": "US combi82",
+                "date": "1483225200000",
+                "pot_size": "86100000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "23",
+                "logo_lg": "logo-long-uslottosyndicate200.png",
+                "logo_sq": "",
+                "name": "US lotto",
+                "date": "1483225200000",
+                "pot_size": "70000000",
+                "link": "#",
+                "type": "3"
+            },
+            {
+                "id": "24",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-floridalotto_zpskpkjzfvh.png",
+                "logo_lg": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-floridalotto_zpskpkjzfvh.png",
+                "logo_sq": "",
+                "name": "Florida Lotto",
+                "date": "1483225200000",
+                "pot_size": "6000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "25",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-hotlotto_zpsxy7l5edt.png",
+                "logo_lg": "",
+                "logo_sq": "",
+                "name": "Hot Lotto",
+                "date": "1483225200000",
+                "pot_size": "2000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "26",
+                "logo": "",
+                "logo_lg": "logo-long-vipworld512.png",
+                "logo_sq": "",
+                "name": "Vipworld 512",
+                "date": "1483225200000",
+                "pot_size": "130000000",
+                "link": "#",
+                "type": "3"
+            },
+            {
+                "id": "27",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-newyorklotto_zpsui8lp0rq.png",
+                "logo_lg": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-newyorklotto_zpsui8lp0rq.png",
+                "logo_sq": "",
+                "name": "New York Lotto",
+                "date": "1483225200000",
+                "pot_size": "100000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "27",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-hossierlottery_zps4pkqhdd4.png",
+                "logo_lg": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-hossierlottery_zps4pkqhdd4.png",
+                "logo_sq": "",
+                "name": "Hoosier Lottery",
+                "date": "1483225200000",
+                "pot_size": "200000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "27",
+                "logo": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-uklotto_zpsvjox7zcg.png",
+                "logo_lg": "http://i1262.photobucket.com/albums/ii611/mindaugas-mediaplanet/Lotteries/logo-uklotto_zpsvjox7zcg.png",
+                "logo_sq": "",
+                "name": "UK Lotto",
+                "date": "1483225200000",
+                "pot_size": "150000000",
+                "link": "#",
+                "type": "1"
+            },
+            {
+                "id": "28",
+                "logo_lg": "padding",
+                "logo_sq": "padding",
+                "name": "padding",
+                "date": "padding",
+                "pot_size": "padding",
+                "link": "padding",
+                "type": "padding"
+            }
+        ]
+    }
+}
